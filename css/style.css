@@ -1,0 +1,229 @@
+h1,h2,h3,h4,h5,h6,p,ul{
+    margin: 0;
+}
+a:hover{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+.header{
+    background: url(../images/header_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 41px 0 260px;
+    text-align: center;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo{
+    font-weight: 700;
+    font-size: 24px;
+    color: #ffffff;
+}
+.header__logo:hover{
+    color: #ffffff;
+    opacity: 0.8;
+}
+.nav-menu{
+    display: flex;
+    width: 100%;
+    max-width: 540px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu__link{
+    font-size: 14px;
+    color: #ffffff;
+}
+.nav-menu__link:hover{
+    color: #ffffff;
+    opacity: 0.8;
+}
+.header__container{
+    margin-bottom: 260px;
+}
+.header-title{
+    text-transform: uppercase;
+    font-size: 48px;
+    color: #ffffff;
+    font-family: "Roboto Slab";
+    margin-bottom: 33px;
+}
+.header-subtitle{
+    font-family: "Roboto Slab";
+    font-weight: 400;
+    font-style: 20px;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+.header-btn{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+padding: 17px 33px;
+border: 2px solid #ffffff;
+border-radius: 2px;    
+}
+.header-btn:hover{
+    color: #ffffff;
+    opacity: 0.8;
+}
+.services__container{
+    padding: 100px 0;
+    
+}
+.title{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #555555;
+    font-weight: 700;
+ text-align: center;
+ position: relative;
+ margin-bottom: 60px;
+    
+}
+.title::after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background: #555555;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+   
+}
+.subtitle{
+    font-family: "Roboto Slab";
+    font-size: 16px;
+    font-weight: 400;
+    color: #555555;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.services_subtitle{
+    margin: 30px 0 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #555;
+    font-weight: 700;
+}
+.services__icon{
+    font-size: 40px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 3px solid #555555;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #c0301c;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.services__icon:hover{
+    background: #c0301c;
+    color: #ffffff;
+}
+.services_subtitle{
+    font-family: "Roboto Slab";
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+    line-height: 24px;
+}
+.about{
+    background: #f8f8f8;
+}
+.about__container{
+    padding: 100px 0;
+}
+.about__text{
+    font-family: "Roboto Slab";
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 40px;
+    
+}
+.about-slider__img{
+    position: relative;
+    
+}
+.about-slider__icons{
+    position: absolute;
+    bottom: 32px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+}
+.about-slider__icons a{
+    font-size: 18px;
+    color: #ffffff;
+    width: 28px;
+    height: 28px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.about-slider__icons a:hover{
+    background: #c0301c;
+}
+.about-slider__img:hover .about-slider__icons{
+    display: block;
+}
+.about-slider__title{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #555555;
+    margin: 20px 0 15px;
+    font-weight: 700;
+    text-align: center;
+}
+.about-slider__subtitle{
+    font-family: "Roboto Slab";
+    color: #555555;
+    text-align: center;
+    font-size: 13px;
+    
+}
+.slick-prev, 
+.slick-next{
+width: 35px;
+height: 38px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: none;
+color: #ffffff;
+background: #8c8c8c;
+position: absolute;
+top: 106px;
+z-index: 99;
+
+}
+.slick-prev:hover,
+.slick-next:hover{
+    background: #c0301c;
+}
+.slick-prev{
+    left: 10px;
+}
+.slick-next{
+    right: 10px;
+}
+.about-slider__item img{
+    margin: 0 auto;
+}
